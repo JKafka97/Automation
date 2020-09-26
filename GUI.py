@@ -150,7 +150,7 @@ def redraw_window(win, board, time, strikes):
 
 
 def format_time(secs):
-    sec = secs%60
+    sec = secs % 60
     minute = secs//60
     hour = minute//60
 
@@ -159,7 +159,7 @@ def format_time(secs):
 
 
 def main():
-    win = pygame.display.set_mode((540,600))
+    win = pygame.display.set_mode((540, 600))
     pygame.display.set_caption("Sudoku")
     board = Grid(9, 9, 540, 540)
     key = None
