@@ -98,7 +98,6 @@ class Grid:
                     return False
         return True
 
-
 class Cube:
     rows = 9
     cols = 9
