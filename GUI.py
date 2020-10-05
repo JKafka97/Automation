@@ -1,6 +1,7 @@
+"packet"
 # GUI.py
 import pygame
-from my_solver import solve, valid
+from slozka.my_solver import solve, valid
 import time
 pygame.font.init()
 
