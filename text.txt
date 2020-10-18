@@ -1,1 +1,20 @@
-# jmena půlů
+1.5.2.2 - main hlavní malé bugy
+velké první písmeno, přít čas, přidávat víc commitů, (visul studio core). nastavit si branche, sys.args
+spustit než začnu makat #git remote -v update
+
+jít do main branche
+
+git glog
+git gloga
+
+spustit než začnu makat = git remote -v update
+
+překlikávání chacků = git checkout dev
+spojení branchů = git merge --no-ff dev
+
+klasické přidání = git add -A {co}
+git commit = git commit -a "tady je zpráva"
+git push = git push origin dev
+git branch = zjistí v jaké branchy jsem 
+uprava mejch informací = git config --global -e
+
